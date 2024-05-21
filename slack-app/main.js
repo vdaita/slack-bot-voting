@@ -59,7 +59,7 @@ app.message("Daily AI Papers Digest:", async({message, say}) => {
                             "text": "Vote"
                         },
                         "value": documentId,
-                        "url": `https://localhost:5173/vote/${documentId}`,
+                        "url": `https://polyagent-vote.web.app/?postId=${documentId}`,
                         "action_id": "vote"
                     }
                 }
